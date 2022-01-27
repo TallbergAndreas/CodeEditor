@@ -1,0 +1,42 @@
+
+
+/* All keyword colors */
+
+
+.styled-text-area .text {
+    -fx-fill: white;
+}
+.paragraph-text .text{
+    -fx-fill: white;
+}
+.keyword {
+    -fx-fill:#EE82EE !important;
+    -fx-font-weight: bold;
+}
+.semicolon {
+    -fx-font-weight: bold;
+}
+.paren {
+    -fx-fill: #34568B !important;
+    -fx-font-weight: bold;
+}
+.bracket {
+    -fx-fill: #9B2335 !important;
+    -fx-font-weight: bold;
+}
+.brace {
+    -fx-fill: #EFC050 !important;
+    -fx-font-weight: bold;
+}
+.string {
+    -fx-fill: #6A8759 !important;
+}
+
+.comment {
+	-fx-fill: #FF6F61 !important;
+}
+
+/*Current Line color*/
+.paragraph-box:has-caret {
+    -fx-background-color: #3c3f41 !important;
+}
